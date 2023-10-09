@@ -1,0 +1,324 @@
+@font-face {
+    font-family: HP;
+    src: url(fonts/HARRYP__.TTF);
+}
+body{
+    margin: 0;
+    font-family: HP;
+    scroll-behavior: smooth;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* INDEX 1 */
+.headerindex1{
+    background-color: #000000;
+    width: 100%;
+    height: 997.8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headerindex1>div>p{
+    color: #e0b350;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+.headerindex1>div>a>button{
+    background-color: #000000;
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 30px;
+    font-family: HP;
+    letter-spacing: 2px;
+    border-style: none;
+    color: #e0b350;
+    transition: 0.5s;
+}
+.headerindex1>div>a>button:hover{
+    background-color: #e0b350;
+    width: 120px;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 25px;
+    font-family: HP;
+    letter-spacing: 2px;
+    color: #000000;
+}
+.headerindex1>div>a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+/* INDEX 1 */
+
+/* INDEX 2 */
+/* HEADER */
+header{
+    width: 100%;
+    height: 1280px;
+    background-image: url(images/Background2.png);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+}
+header>div{
+    width: 100%;
+    height: 6%;
+}
+header>div>ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #e0b350;
+    letter-spacing: 1px;
+    background-color: #ffffff2b;
+    margin: 0;
+    height: 100%;
+}
+#logo{
+    margin-right: 500px;
+    margin-bottom: 2px;
+}
+#logo>img{
+    width: 70px;
+}
+header>div>ul>a{
+    text-decoration: none;
+    color: #e0b350;
+    text-shadow: 4px 5px 2px rgba(0,0,0,0.33);
+    font-size: 30px;
+}
+.header2txt{
+    width: 100%;
+    height: 94%;
+}
+.hptext{
+    height: 100%;
+    width: 420px;
+    display: flex;
+    align-items: start;
+    margin-top: 200px;
+    margin-left: 190px;
+}
+.hptext>p{
+    font-size: 70px;
+    color: #e0b350;
+    letter-spacing: 2px;
+    text-shadow: 8px 5px 2px rgba(0,0,0,0.33);
+}
+/* HEADER */
+/* MAIN */
+#bk1 , #bk2 , #bk3 , #bk4 , #bk5 , #bk6{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bk7{
+    width: 100%;
+    height: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#bk1txt{
+    font-size: 80px;
+}
+.book1Cards , .book2Cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#book1 , #book2{
+    border-radius: 20px;
+    width: 400px;
+    height: 520px;
+}
+.book1>a , .book2>a{
+    text-decoration: none;
+    color: #000000;
+}
+#arrow{
+    width: 200px;
+    height: 200px;
+}
+.middleTxt1 , .middleTxt2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.middleTxt1>p , .middleTxt2>p{
+    font-size: 40px;
+    text-align: center;
+}
+/* MAIN */
+/* INDEX 2 */
+/* INDEX 3-7 */
+#MainDif1 , #MainDif2 , #MainDif3 , #MainDif4 , #MainDif5 , #MainDif6 , #MainDif7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 200px;
+}
+#MainDif1>p , #MainDif2>p , #MainDif3>p , #MainDif4>p , #MainDif5>p , #MainDif6>p , #MainDif7>p{
+    font-size: 60px;
+}
+#MainDif7>div{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.links , footer{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.links>p , footer>p{
+    font-size: 30px;
+}
+.links>div , footer>div{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.links>div>div , footer>div>div{
+    display: flex;
+    align-items: center;
+}
+.links>div>div>a , footer>div>div>a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 25px;
+}
+footer>div>div>img , .links>div>div>img{
+    width: 50px;
+    height: 50px;
+}
+/* INDEX 3-7 */
+
+/* Adaptation Index's */
+@media(max-width:413px){
+    .headerindex1>div>p{
+        color: #e0b350;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+    }
+    .headerindex1{
+        background-color: #000000;
+        width: 100%;
+        height: 900px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .headerindex1>div>img{
+        width: 100%;
+        height: 70px;
+    }
+
+    header{
+        width: 100%;
+        height: 200px;
+        background-image: url(images/Background2.png);
+        background-size: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    header>div>ul{
+        display: none;
+    }
+    .header2txt{
+        height: 100%;
+        width: 100%;
+    }
+    .hptext{
+        width: 100px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    .hptext>p{
+        font-size: 20px;
+        color: #e0b350;
+        letter-spacing: 2px;
+        text-shadow: 8px 5px 2px rgba(0,0,0,0.33);
+        margin: 0;
+    }
+    #bk1 , #bk2 , #bk3 , #bk4 , #bk5 , #bk6{
+        width: 100%;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #bk7{
+        width: 100%;
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #bk1txt{
+        font-size: 30px;
+    }
+    #book1 , #book2{
+        border-radius: 20px;
+        width: 100px;
+        height: 150px;
+    }
+    #arrow{
+        width: 30px;
+        height: 30px;
+    }
+    .middleTxt1>p , .middleTxt2>p{
+        font-size: 20px;
+        text-align: center;
+    }
+    footer>div>div>img , .links>div>div>img{
+        width: 30px;
+        height: 30px;
+    }
+    .links>div>div>a , footer>div>div>a{
+        text-decoration: none;
+        color: #000000;
+        font-size: 20px;
+    }
+    #MainDif1 , #MainDif2 , #MainDif3 , #MainDif4 , #MainDif5 , #MainDif6 , #MainDif7{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #MainDif1>p , #MainDif2>p , #MainDif3>p , #MainDif4>p , #MainDif5>p , #MainDif6>p , #MainDif7>p{
+        font-size: 30px;
+    }
+    #MainDif1>iframe , #MainDif2>iframe , #MainDif3>iframe , #MainDif4>iframe , #MainDif5>iframe , #MainDif6>iframe ,  #MainDif7>div>iframe{
+        width: 200px;
+        height: 100px;
+    }
+    #MainDif7>div{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
+/* Adaptation Index's */
